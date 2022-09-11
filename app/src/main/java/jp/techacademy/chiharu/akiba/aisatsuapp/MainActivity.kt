@@ -25,10 +25,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     textView.text = "こんにちは"
 
                 if(hour>=18)
-                    textView.text = "こんばんわ"
+                    textView.text = "こんばんは"
 
                 if(hour>=0 && hour<=1)
-                    textView.text = "こんばんわ"
+                    textView.text = "こんばんは"
             },
             13, 0, true)
         timePickerDialog.show()
